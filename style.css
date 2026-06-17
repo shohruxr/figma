@@ -1,0 +1,33 @@
+body {
+  background-color: #ffffff;
+  font-family: sans-serif;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 50px;
+}
+.area {
+  font-size: 30px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  cursor: pointer;
+}
+.main-navigation {
+  display: flex;
+  gap: 20px;
+
+}
+.learn-more {
+  background-color: #485c11;
+  border-radius: 25px;
+  padding: 10px;
+}
+.learn-more a {
+  color: #ffffff;
+}
