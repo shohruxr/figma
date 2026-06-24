@@ -21,7 +21,6 @@ a:hover {
 .main-navigation {
   display: flex;
   gap: 20px;
-
 }
 .learn-more {
   background-color: #485c11;
@@ -30,4 +29,30 @@ a:hover {
 }
 .learn-more a {
   color: #ffffff;
+}
+.hero-section1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.qiyin-class {
+  font-family: "Playfair Display", serif;
+  font-size: 4.5rem;
+  font-weight: 500;
+}
+.rasm-foni {
+  width: 1000px;
+  height:300px;
+  position: absolute;
+  background-color: #718243;
+  bottom: 110px;
+  z-index: 0;
+  border-radius: 15px;
+}
+.hero-section1 img {
+  position: relative;
+  z-index: 1;
+  display: block;
+  width: 700px;
+  height: auto;
 }
