@@ -40,20 +40,85 @@ a:hover {
   font-size: 4.5rem;
   font-weight: 500;
 }
+.big-container {
+  height: 395px;
+  overflow: hidden;
+  position: relative;
+}
 .rasm-foni {
-  width: 1000px;
+  width: 92vw;
   height: 300px;
-  position: absolute;
+  position: relative;
   background-color: #718243;
-  bottom: 110px;
-  z-index: 0;
-  border-radius: 15px;
+  top: 95px;
+  border-radius: 25px;
 }
 .hero-section1 img {
-  position: relative;
-  z-index: 1;
-  display: block;
+  position: absolute;
   width: 700px;
   height: auto;
   border-radius: 15px;
+}
+
+.partner-section {
+  display: flex;
+  justify-content: center;
+  height: 235px;
+  padding: 20px 0;
+}
+.logos {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  padding: 15px 50px;
+}
+
+.child-div {
+  width: 92vw;
+}
+.partner-section h6 {
+  color: #6f6f6f;
+  font-family: DM Sans;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 15px;
+}
+.logos img {
+  width: 114px;
+  height: 44px;
+}
+.section2 {
+  display: flex;
+  justify-content: center;
+  height: 672px;
+  gap: 50px;
+  padding: 0 20px;
+}
+.qoshimcha {
+  width: 92vw;
+}
+.benefits {
+  font-family: Roboto Mono;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 12px;
+  color: #485c11;
+}
+.span2 {
+  font-family: DM Sans;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 15px;
+  color: #6f6f6f;
+}
+.qoshimcha h2 {
+  font-family: Crimson Text;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 60px;
+  color: #000000;
+}
+hr{
+    height: 1px;
+    opacity: 0.5;
 }

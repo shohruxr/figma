@@ -110,28 +110,41 @@
 
 // console.log(lettersCount('saLOm sita'))
 
-function createObjectCalculator(a, b) {
-  //your code goes here
+// function createObjectCalculator(a, b) {
+
  
-  return {
-    read(a, b) {
-     this.a = a
-     this.b = b;
-  },
-    sum() {
-      return a + b;
-    },
-    mul() {
-      return a * b;
-    },
-  };
-}
+//   return {
+//     read(a, b) {
+//      this.a = a
+//      this.b = b;
+//   },
+//     sum() {
+//       return a + b;
+//     },
+//     mul() {
+//       return a * b;
+//     },
+//   };
+// }
 
-const calculator = createObjectCalculator(1,6);
-console.log(calculator.sum());
-console.log(calculator.mul());
-calculator.read(12,34)
-console.log(calculator.sum());
-console.log(calculator.mul());
+// const calculator = createObjectCalculator(1,6);
+// console.log(calculator.sum());
+// console.log(calculator.mul());
+// calculator.read(12,34)
+// console.log(calculator.sum());
+// console.log(calculator.mul());
 
 
+const people = [
+  { name: "ali", city: "tashkent" },
+  { name: "vali", city: "samarkand" },
+  { name: "gali", city: "tashkent" },
+];
+
+const byCity = people.reduce((acc, item) => {
+  if(!acc[item.city]) acc[item.city] = []
+  acc[item.city].push(item.name)
+  return acc
+}, {})
+
+console.log(byCity)
